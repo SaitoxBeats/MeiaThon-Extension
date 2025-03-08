@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Meiathon Timer",
+    "version": "1.0",
+    "description": "Mostra o tempo restante do subathon do Meiaum",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "64": "icon64.png"
+      }
+    },
+    "icons": {
+      "64": "icon64.png"
+    },
+    "permissions": ["alarms"]
+  }

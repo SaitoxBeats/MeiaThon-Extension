@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meiathon Timer</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Teko:wght@300..700&display=swap');
+    
+    :root {
+        --meiaumBlack: rgb(16, 0, 27);
+        --meiaumWhite: rgb(255, 255, 255);
+    }
+    
+    body {
+        width: 200px;
+        height: 80px;
+        font-family: "IBM Plex Sans";
+        text-align: center;
+        padding: 10px;
+        background-color: var(--meiaumBlack);
+        color: var(--meiaumWhite);
+    }
+    
+    .timer-container {
+        margin: 0px;
+    }
+    
+    #timer {
+        display: inline;
+        font-size: 30px;
+        font-weight: bold;
+        color: var(--meiaumBlack);
+        margin: 15px 0;
+        background-color: var(--meiaumWhite);
+    }
+    
+    h1 {
+
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loading {
+        font-style: italic;
+        color: var(--meiaumWhite);
+    }
+
+    #cred{
+        margin-top: 10px;
+    }
+
+    p{
+        display: inline;
+    }
+
+    a{
+        display: inline;
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--meiaumBlack);
+        background-color: var(--meiaumWhite);
+    }
+  </style>
+</head>
+<body>
+  <h1>=Meiathon Timer</h1>
+  <div class="timer-container">
+    <div id="timer" class="loading">0000:00:00</div>
+  </div>
+  <div id="cred"><p>Feito por </p><a href="https://saitoxbeats.github.io/" target="_blank">SaitoxBeats</a></div>
+  <script src="popup.js"></script>
+</body>
+</html>
